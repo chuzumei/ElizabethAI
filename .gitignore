@@ -1,0 +1,74 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+dist/
+
+# Ambientes virtuais
+.venv/
+.venv-*/
+venv/
+
+# Dados pessoais e configuracoes
+.env
+.env.*
+!.env.example
+config.yaml
+.claude/
+
+# Memoria e bancos de dados
+elizabeth/data/
+jarvis/data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Modelos de IA
+models/
+emilia_model/
+voice_training/
+wakeword_data/
+*.onnx
+*.pth
+*.pt
+*.safetensors
+*.npy
+
+# Audios e arquivos grandes
+*.wav
+*.mp3
+*.zip
+*.log
+
+# Backups
+*.bak
+*.backup
+*_backup.py
+*_antes_*.py
+*_pre_*.py
+
+elizabeth/data/
+elizabeth_*.json
+elizabeth_*.srt
+elizabeth_*.tsv
+elizabeth_*.txt
+elizabeth_*.vtt
+
+*.save
+*.save.*
+*.before-*
+*.windows-backup
+JARVIS_STATE.md
+PROJECT_SUMMARY.txt
+requirements-backup.txt
+elizabeth/elizabeth_voice.py
+elizabeth/tts_kokoro_backup.py
+elizabeth/tts_test_emilia.py
+elizabeth/tts_test_emilia_filter.py
+elizabeth/wake_elizabeth_backup.py
+elizabeth/wake_onnx_backup.py
+elizabeth/wake_pre_stt_boundary_fix.py
+
+README.original-backup.md
